@@ -62,9 +62,6 @@
       height: 100%;
       width: 100%;
       object-fit: cover;
-
-      /* background-image: url(../../assets/images/card-about.jpg);
-      background-size: cover; */
 }
 
 .button--cv {
@@ -80,5 +77,12 @@
 
 .button--cv:hover {
       background: var(--dark-green);
+}
+
+
+.hero__scroll-down-link {
+      font-size: 25px;
+      text-decoration: none;
+      color: #000;
 }
 

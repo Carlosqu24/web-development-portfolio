@@ -24,8 +24,13 @@ export const About = () => {
 
                               <button id="btn-curriculum" className="button button--cv">Download CV</button>
                         </div>
-                        <div className="card__container-img"> <img className="card__img" src="./assets/images/card-about.jpg"
-                              alt="" /></div>
+                        <div className="card__container-img">
+                              <img 
+                                    className="card__img" 
+                                    src="./assets/images/card-about.jpg"
+                                    alt=""
+                              />
+                        </div>
                   </div>
             </section>
       )

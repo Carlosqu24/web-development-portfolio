@@ -41,3 +41,22 @@ p {
   width: 70%;
   margin: auto;
 }
+
+.button {
+  width: auto;
+  padding: 0.8rem;
+
+  background: rgb(255, 255, 255);
+  font-family: var(--primary-font);
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+  outline: none;
+  border-radius: 0px;
+  border: none;
+  /* border: 2px solid #000; */
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
