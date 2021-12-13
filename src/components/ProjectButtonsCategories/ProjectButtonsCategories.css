@@ -1,0 +1,27 @@
+.project-buttons-categories {
+      margin: 5px 0;
+}
+
+.project-button-category {
+      margin-right: 0.5rem;
+      padding: 8px;
+      border: none;
+
+      background: #000;
+      color: #fff;
+      font-size: 16px;
+      text-decoration: none;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+      transition: background 0.3s ease;
+
+      cursor: pointer;
+}
+
+.project-button-category:hover {
+      background: var(--green);
+}
+
+.project-button-category.is-active {
+      background: var(--green);
+}

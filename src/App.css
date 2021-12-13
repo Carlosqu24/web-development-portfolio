@@ -36,3 +36,8 @@ p {
 .header {
   background: transparent;
 }
+
+.container {
+  width: 70%;
+  margin: auto;
+}

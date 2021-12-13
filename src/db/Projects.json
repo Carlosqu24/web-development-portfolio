@@ -5,8 +5,8 @@
             "description": "It's an example landing page about a gym. It's divided by 4 sections: Hero, Services, Testimonials.",
             "type": "landing-page",
             "imgURL": "../../assets/images/projects/gym-landing-page.png",
-            "liveURL": "http://google.com",
-            "githubRepoURL": "http://google.com"
+            "liveURL": "https://carlosqu24.github.io/react-gym-landing-page/",
+            "githubRepoURL": "https://github.com/Carlosqu24/react-gym-landing-page"
       },
       {
             "id": 2,
@@ -14,8 +14,8 @@
             "description": "It's an example landing page about an pizza restaurant. It's divided by 4 sections: Hero, About and Foods.",
             "type": "landing-page",
             "imgURL": "../../assets/images/projects/pizza-landing-page-min.png",
-            "liveURL": "http://google.com",
-            "githubRepoURL": "http://google.com"
+            "liveURL": "https://carlosqu24.github.io/react-pizza-landing-page/",
+            "githubRepoURL": "https://github.com/Carlosqu24/react-pizza-landing-page"
       },
       {
             "id": 3,
@@ -23,6 +23,33 @@
             "description": "It's an example landing page about an architecture agency. It's divided by 4 sections: Hero, About, Services and Projects.",
             "type": "landing-page",
             "imgURL": "../../assets/images/projects/architecture-landing-page.png",
+            "liveURL": "https://carlosqu24.github.io/react-architecture-landing-page/",
+            "githubRepoURL": "https://github.com/Carlosqu24/react-architecture-landing-page"
+      },
+      {
+            "id": 4,
+            "name": "Tasks App",
+            "description": "I am currently working on an application for task management. You can view, add, edit and delete tasks. I developed it with React, the Javascript library. This application has data persistence, which is the Local Storage.",
+            "type": "application",
+            "imgURL": "../../assets/images/projects/react-context-tasks.png",
+            "liveURL": "https://carlosqu24.github.io/react-context-tasks-app/#/",
+            "githubRepoURL": "https://github.com/Carlosqu24/react-context-tasks-app"
+      },
+      {
+            "id": 5,
+            "name": "Countdown",
+            "description": "It is a project that shows the countdown of the date preset by the user with respect to the current time.",
+            "type": "application",
+            "imgURL": "../../assets/images/projects/countdown-min.png",
+            "liveURL": "http://google.com",
+            "githubRepoURL": "http://google.com"
+      },
+      {
+            "id": 6,
+            "name": "Filter images gallery",
+            "description": "It is a project that filters images according to their name. These images are brought from the Pixabay API.",
+            "type": "application",
+            "imgURL": "../../assets/images/projects/filter-images-gallery-min.png",
             "liveURL": "http://google.com",
             "githubRepoURL": "http://google.com"
       }

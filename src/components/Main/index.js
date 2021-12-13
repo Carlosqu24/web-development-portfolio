@@ -4,23 +4,17 @@ import './Main.css'
 
 import { Hero } from '../Hero';
 import { About } from '../About';
-import { Features } from '../Features';
-import { Catering } from '../Catering';
-import { Contact } from '../Contact';
 import { Projects } from '../Projects';
 
 
 export const Main = () => {
       return (
-            <div>
-                  {/* <Hero />
-                  <About />
-                  <Features />
-                  <Catering />
-                  <Contact /> */}
+            <main className="main">
                   <Hero />
-                  <About />
-                  <Projects />
-            </div>
+                  <div className="container">
+                        <About />
+                        <Projects />
+                  </div>
+            </main>
       )
 }
