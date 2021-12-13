@@ -1,0 +1,84 @@
+.section-about {
+      height: auto;
+}
+
+.section__title {
+      margin: 50px 0;
+
+      color: #000;
+      text-align: center;
+      font-size: 40px;
+}
+
+.card {
+      height: auto;
+      width: 70%;
+      margin: auto;
+
+      background: rgba(0, 0, 0, 0);
+      color: #000;
+      /* box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px; */
+
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      overflow: hidden;
+}
+
+.card__info {
+      height: 100%;
+      width: 100%;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: flex-start;
+}
+
+.card__info * {
+      margin: 10px 0;
+}
+
+.card__title {
+      font-size: 45px;
+}
+
+.card__text {
+      width: 80%;
+
+      text-align: justify;
+      font-size: 1rem;
+      color: rgba(0, 0, 0, 0.849);
+      /* color: #000; */
+}
+
+.card__container-img {
+      height: 340px;
+      width: 340px;
+}
+
+.card__img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+
+      /* background-image: url(../../assets/images/card-about.jpg);
+      background-size: cover; */
+}
+
+.button--cv {
+      background: var(--green);
+      font-size: 16px;
+      font-weight: 500;
+      color: rgb(255, 255, 255);
+
+      font-family: var(--primary-font);
+
+      transition: background 0.3s ease;
+}
+
+.button--cv:hover {
+      background: var(--dark-green);
+}
+

@@ -1,0 +1,15 @@
+.section-projects {
+      height: auto;
+
+      /* background: var(--white); */
+      color: #000;
+}
+
+.projects-grid {
+      width: 70%;
+      margin: auto;
+
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+      gap: 2rem;
+}

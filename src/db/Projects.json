@@ -1,0 +1,29 @@
+[
+      {
+            "id": 1,
+            "name": "Gym page",
+            "description": "It's an example landing page about a gym. It's divided by 4 sections: Hero, Services, Testimonials.",
+            "type": "landing-page",
+            "imgURL": "../../assets/images/projects/gym-landing-page.png",
+            "liveURL": "http://google.com",
+            "githubRepoURL": "http://google.com"
+      },
+      {
+            "id": 2,
+            "name": "Pizza page",
+            "description": "It's an example landing page about an pizza restaurant. It's divided by 4 sections: Hero, About and Foods.",
+            "type": "landing-page",
+            "imgURL": "../../assets/images/projects/pizza-landing-page-min.png",
+            "liveURL": "http://google.com",
+            "githubRepoURL": "http://google.com"
+      },
+      {
+            "id": 3,
+            "name": "Architecture page",
+            "description": "It's an example landing page about an architecture agency. It's divided by 4 sections: Hero, About, Services and Projects.",
+            "type": "landing-page",
+            "imgURL": "../../assets/images/projects/architecture-landing-page.png",
+            "liveURL": "http://google.com",
+            "githubRepoURL": "http://google.com"
+      }
+]
