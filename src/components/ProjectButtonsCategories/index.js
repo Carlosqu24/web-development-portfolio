@@ -21,12 +21,12 @@ export const ProjectButtonsCategories = ({ filter, category, setCategory }) => {
                         id="landing-page"
                         onClick={(e) => handleClick(e)}
                         className={`project-button-category ${category == 'landing-page' ? 'is-active' : ''}`}
-                  >Landing</button>
+                  >Landing Pages</button>
                   <button
                         id="application"
                         onClick={(e) => handleClick(e)}
                         className={`project-button-category ${category == 'application' ? 'is-active' : ''}`}
-                  >Applications</button>
+                  >Web Applications</button>
             </div>
       )
 }

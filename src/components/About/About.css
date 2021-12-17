@@ -41,7 +41,7 @@
 }
 
 .card__title {
-      font-size: 45px;
+      font-size: 35px;
 }
 
 .card__text {
@@ -86,3 +86,13 @@
       color: #000;
 }
 
+
+@media screen and (max-width: 976px) {
+      .card__info {
+            align-items: center;
+      }
+      
+      .card__container-img {
+            display: none;
+      }
+}
