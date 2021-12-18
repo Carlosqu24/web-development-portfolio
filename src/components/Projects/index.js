@@ -27,6 +27,8 @@ export const Projects = () => {
 
       useEffect(() => setCategory("all"), [])
 
+      console.log(data)
+
       return (
             <section id="projects" className="section section-projects">
                   <h2 className="section__title">Projects</h2>
@@ -39,11 +41,12 @@ export const Projects = () => {
                   />
                   <div className="projects-grid">
                         {
-                              data.map(({ id, name, description, type, imgURL, liveURL, githubRepoURL }) => (
+                              data.map(({ id, name, description, technologies, type, imgURL, liveURL, githubRepoURL }) => (
                                     <ProjectCard
                                           key={id}
                                           name={name}
                                           description={description}
+                                          technologies={technologies}
                                           type={type}
                                           imgURL={imgURL}
                                           liveURL={liveURL}

@@ -3,6 +3,12 @@
             "id": 1,
             "name": "Gym page",
             "description": "It's an example landing page about a gym. It's divided by 4 sections: Hero, Services, Testimonials.",
+            "technologies": [
+                  { "name": "HTML", "class": "fab fa-html5 fa-2x", "color": "tomato" },
+                  { "name": "CSS", "class": "fab fa-css3-alt fa-2x", "color": "Dodgerblue" },
+                  { "name": "JavaScript", "class": "fab fa-js fa-2x", "color": "rgb(255, 239, 87)" },
+                  { "name": "React.js", "class": "fab fa-react fa-2x", "color": "rgb(0, 217, 255)" }
+            ],
             "type": "landing-page",
             "imgURL": "../../assets/images/projects/gym-landing-page.png",
             "liveURL": "https://carlosqu24.github.io/react-gym-landing-page/",
@@ -12,6 +18,12 @@
             "id": 2,
             "name": "Pizza page",
             "description": "It's an example landing page about an pizza restaurant. It's divided by 4 sections: Hero, About and Foods.",
+            "technologies": [
+                  { "name": "HTML", "class": "fab fa-html5 fa-2x", "color": "tomato" },
+                  { "name": "CSS", "class": "fab fa-css3-alt fa-2x", "color": "Dodgerblue" },
+                  { "name": "JavaScript", "class": "fab fa-js fa-2x", "color": "rgb(255, 239, 87)" },
+                  { "name": "React.js", "class": "fab fa-react fa-2x", "color": "rgb(0, 217, 255)" }
+            ],
             "type": "landing-page",
             "imgURL": "../../assets/images/projects/pizza-landing-page-min.png",
             "liveURL": "https://carlosqu24.github.io/react-pizza-landing-page/",
@@ -21,6 +33,12 @@
             "id": 3,
             "name": "Architecture page",
             "description": "It's an example landing page about an architecture agency. It's divided by 4 sections: Hero, About, Services and Projects.",
+            "technologies": [
+                  { "name": "HTML", "class": "fab fa-html5 fa-2x", "color": "tomato" },
+                  { "name": "CSS", "class": "fab fa-css3-alt fa-2x", "color": "Dodgerblue" },
+                  { "name": "JavaScript", "class": "fab fa-js fa-2x", "color": "rgb(255, 239, 87)" },
+                  { "name": "React.js", "class": "fab fa-react fa-2x", "color": "rgb(0, 217, 255)" }
+            ],
             "type": "landing-page",
             "imgURL": "../../assets/images/projects/architecture-landing-page.png",
             "liveURL": "https://carlosqu24.github.io/react-architecture-landing-page/",
@@ -30,6 +48,12 @@
             "id": 4,
             "name": "Tasks App",
             "description": "I am currently working on an application for task management. You can view, add, edit and delete tasks. I developed it with React, the Javascript library. This application has data persistence, which is the Local Storage.",
+            "technologies": [
+                  { "name": "HTML", "class": "fab fa-html5 fa-2x", "color": "tomato" },
+                  { "name": "CSS", "class": "fab fa-css3-alt fa-2x", "color": "Dodgerblue" },
+                  { "name": "JavaScript", "class": "fab fa-js fa-2x", "color": "rgb(255, 239, 87)" },
+                  { "name": "React.js", "class": "fab fa-react fa-2x", "color": "rgb(0, 217, 255)" }
+            ],
             "type": "application",
             "imgURL": "../../assets/images/projects/react-context-tasks.png",
             "liveURL": "https://carlosqu24.github.io/react-context-tasks-app/#/",
@@ -39,6 +63,11 @@
             "id": 5,
             "name": "Countdown",
             "description": "It is a project that shows the countdown of the date preset by the user with respect to the current time.",
+            "technologies": [
+                  { "name": "HTML", "class": "fab fa-html5 fa-2x", "color": "tomato" },
+                  { "name": "CSS", "class": "fab fa-css3-alt fa-2x", "color": "Dodgerblue" },
+                  { "name": "JavaScript", "class": "fab fa-js fa-2x", "color": "rgb(255, 239, 87)" }
+            ],
             "type": "application",
             "imgURL": "../../assets/images/projects/countdown-min.png",
             "liveURL": "http://google.com",
@@ -48,6 +77,11 @@
             "id": 6,
             "name": "Filter images gallery",
             "description": "It is a project that filters images according to their name. These images are brought from the Pixabay API.",
+            "technologies": [
+                  { "name": "HTML", "class": "fab fa-html5 fa-2x", "color": "tomato" },
+                  { "name": "CSS", "class": "fab fa-css3-alt fa-2x", "color": "Dodgerblue" },
+                  { "name": "JavaScript", "class": "fab fa-js fa-2x", "color": "rgb(255, 239, 87)" }
+            ],
             "type": "application",
             "imgURL": "../../assets/images/projects/filter-images-gallery-min.png",
             "liveURL": "http://google.com",
