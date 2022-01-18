@@ -1,56 +1,42 @@
 import React, { useState, useEffect } from 'react'
-
 import './Projects.css'
-
-// DB
-import db from "../../db/Projects.json"
-
 // COMPONENTS
 import { ProjectCard } from '../ProjectCard'
 import { ProjectButtonsCategories } from '../ProjectButtonsCategories'
+import { useProjects } from '../../hooks/useProjects'
+
 
 export const Projects = () => {
-      const [data, setData] = useState(db)
-      const [category, setCategory] = useState("")
-
-      const filter = (category) => {
-
-            if (category === 'all') {
-                  setData(db);
-                  return;
-            }
-
-            const filteredData = db.filter(item => item.type === category);
-
-            setData(filteredData)
-      };
-
-      useEffect(() => setCategory("all"), [])
-
-      console.log(data)
+      const { 
+            db, 
+            projects,
+            category,
+            setCategory,
+            filter
+      } = useProjects()
 
       return (
             <section id="projects" className="section section-projects">
                   <h2 className="section__title">Projects</h2>
                   <ProjectButtonsCategories
                         db={db}
-                        data={data}
+                        data={projects}
                         filter={filter}
                         category={category}
                         setCategory={setCategory}
                   />
                   <div className="projects-grid">
                         {
-                              data.map(({ id, name, description, technologies, type, imgURL, liveURL, githubRepoURL }) => (
+                              projects.map(({ _id, name, description, technologies, type, imageURL, links }) => (
                                     <ProjectCard
-                                          key={id}
+                                          key={_id}
                                           name={name}
                                           description={description}
                                           technologies={technologies}
                                           type={type}
-                                          imgURL={imgURL}
-                                          liveURL={liveURL}
-                                          githubRepoURL={githubRepoURL}
+                                          imgURL={imageURL}
+                                          liveURL={links.liveURL}
+                                          githubRepoURL={links.githubURL}
                                     />
                               ))
                         }
