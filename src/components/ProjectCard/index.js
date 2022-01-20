@@ -2,8 +2,6 @@ import React from 'react'
 
 import './ProjectCard.css'
 
-import { TechnologyCard } from '../TechnologyCard'
-
 
 export const ProjectCard = ({ imgURL, name, description, technologies,  type, liveURL, githubRepoURL }) => {
       return (
@@ -17,21 +15,14 @@ export const ProjectCard = ({ imgURL, name, description, technologies,  type, li
                         <h3 className="projects-card__title">{name}</h3>
                         <p className="projects-card__text">{description}</p>
 
-                        <div className="projects-card__technologies">
-                              <h3>Technologies</h3>
-
-                              <div className="technologies-grid">
-                                    { technologies && 
-                                          <>
-                                                { technologies.map(technology => (
-                                                
-                                                      <TechnologyCard technology={technology} />
-                                                )) }
-                                          </> 
-                                    }
-                              </div>
-                        </div>
-
+                        <a
+                              className="projects-card__link projects-card__link--live"
+                              href=""
+                              target="_blank"
+                        >
+                              <span>See Details</span>
+                              <i className="fas fa-info-circle"></i>
+                        </a>
                         <a
                               className="projects-card__link projects-card__link--live"
                               href={liveURL}
