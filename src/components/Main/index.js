@@ -5,6 +5,7 @@ import './Main.css'
 import { Hero } from '../Hero';
 import { About } from '../About';
 import { Projects } from '../Projects';
+import { Header } from '../Header';
 
 
 export const Main = () => {
