@@ -9,6 +9,7 @@ import {
 import { Header } from './components/Header';
 import { HomePage } from './pages/HomePage';
 import { ProjectsPage } from './pages/ProjectsPage';
+import { ProjectPage } from './pages/ProjectPage';
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
         <Routes>
           <Route path='/' exact element={<HomePage />} />
           <Route path='/projects' element={<ProjectsPage />} />
-          <Route path='/projects/:projectId' element={<ProjectsPage />} />
+          <Route path='/projects/:projectId' element={<ProjectPage />} />
         </Routes>
       
       </HashRouter>

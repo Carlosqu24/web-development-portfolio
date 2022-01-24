@@ -30,6 +30,7 @@ export const Projects = () => {
                               projects.map(({ _id, name, description, technologies, type, imageURL, links }) => (
                                     <ProjectCard
                                           key={_id}
+                                          id={_id}
                                           name={name}
                                           description={description}
                                           technologies={technologies}
