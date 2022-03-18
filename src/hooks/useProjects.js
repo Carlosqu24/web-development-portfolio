@@ -26,15 +26,24 @@ export const useProjects = () => {
             setProjects(filteredData)
       };
 
+      
       useEffect(() => setCategory("all"), [])
-
+      
       useEffect(() => getProjects(), [])
+      
+      const getProjectById = (id) => {
+            const matchArray = projects.length > 0
+                              && projects.filter(project => project._id === id)
+
+            return matchArray[0]
+      }
 
       return { 
             db,
             projects, 
             category,  
             setCategory,
-            filter
+            filter,
+            getProjectById
       }
 }
